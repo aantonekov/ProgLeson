@@ -12,7 +12,7 @@ function App() {
     <>
         <Header />
         <Routes>
-          <Route path='/' element={ <Login /> } />
+          <Route path='/login'  element={ <Login /> } />
           <Route path='/registration' element={ <Registration /> } />
           <Route path='/*' element={ <span style={{color: "black"}}>404 page not found</span> } />
         </Routes>
